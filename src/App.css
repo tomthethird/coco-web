@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +37,98 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-link:hover {
+  color:#FFAA00;
+}
+
+#navbar .active {
+  color:#FFAA00;
+}
+
+#navbar h5 {
+  display: inline;
+  font-weight: 600;
+}
+
+#hero {
+  height: 90vh;
+}
+
+.semibold {
+  font-weight: 500;
+}
+
+.parallax {
+  background-image: url(./assets/header-cocojam.png);
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.flashdeal {
+  background-image: url(./assets/flashdeal.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media only screen and (max-device-width: 1366px) {
+  .flashdeal {
+    background-attachment: scroll;
+  }
+}
+
+.productImage {
+  width: 215px;
+  height: 215px;
+  object-fit: contain;
+}
+
+.blogs {
+  height: 60vh;
+}
+
+#blogs h4{
+  text-shadow: 2px 2px 15px black;
+}
+
+#blog01 {
+  background-image: url(./assets/blog-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blog02 {
+  background-image: url(./assets/blog-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blog03 {
+  background-image: url(./assets/blog-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blog04 {
+  background-image: url(./assets/blog-4.jpg);
+  background-position: 50% 78%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sale {
+  position: relative;
+  right: -65%;
 }
